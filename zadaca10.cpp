@@ -51,15 +51,7 @@ public:
     const char *getKategorija() const {
         return kategorija;
     }
-
-    const char *getNaslov() const {
-        return naslov;
-    }
-
-    const char *getOpis() const {
-        return opis;
-    }
-
+    
 };
 
 class Oglasnik : public Oglas{
